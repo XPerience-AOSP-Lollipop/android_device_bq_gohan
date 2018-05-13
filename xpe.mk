@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/XPe/config/common_full_phone.mk)
 
 # Inherit from gohan device
 $(call inherit-product, device/bq/gohan/device.mk)
@@ -27,7 +27,7 @@ $(call inherit-product, device/bq/gohan/device.mk)
 BOARD_VENDOR := bq
 PRODUCT_BRAND := bq
 PRODUCT_DEVICE := gohan
-PRODUCT_NAME := lineage_gohan
+PRODUCT_NAME := xpe_gohan
 PRODUCT_MANUFACTURER := bq
 PRODUCT_MODEL := Aquaris X5 Plus
 TARGET_VENDOR := bq
